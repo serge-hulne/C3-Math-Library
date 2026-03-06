@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "langrev": "1",
+  "warnings": ["no-unused"],
+  "authors": ["C3 Math Library Contributors"],
+  "targets": {
+    "mathlib_example": {
+      "type": "executable",
+      "sources": [
+        "types.c3",
+        "math_core.c3",
+        "trig.c3",
+        "power.c3",
+        "vector.c3",
+        "matrix.c3",
+        "statistics.c3",
+        "complex.c3",
+        "quaternion.c3",
+        "matnm.c3",
+        "example.c3"
+      ]
+    }
+  },
+  "dependencies": [],
+  "c-sources": []
+}
